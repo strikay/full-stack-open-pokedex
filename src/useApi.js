@@ -1,3 +1,4 @@
+/*eslint linebreak-style: ["error", "windows"]*/
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
