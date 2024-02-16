@@ -1,4 +1,4 @@
-/*eslint linebreak-style: ["error", "windows"]*/
+
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import LoadingSpinner from './LoadingSpinner'
