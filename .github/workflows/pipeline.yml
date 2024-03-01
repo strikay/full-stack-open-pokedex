@@ -12,6 +12,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
+      - name: Change file permissions
+        run: chmod 777 build_step.sh
       - name: Install dependencies 
         run: npm install  
       - name: Check style
