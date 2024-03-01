@@ -43,4 +43,7 @@ module.exports = {
       filename: "./index.html",
     }),
   ],
+  output: {
+    hashFunction: 'sha512',
+  },
 };
