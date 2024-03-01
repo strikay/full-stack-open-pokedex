@@ -7,6 +7,9 @@ import ErrorMessage from './ErrorMessage'
 import PokemonPage from './PokemonPage'
 import PokemonList from './PokemonList'
 
+// eslint-disable-next-line no-unused-vars
+let i = 0
+
 const mapResults = (({ results }) => results.map(({ url, name }) => ({
   url,
   name,
