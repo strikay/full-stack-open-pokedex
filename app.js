@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(express.static('dist'))
 
+//the health check endpoint of the app
 app.get('/health', (req, res) => {
   res.send('ok')
 })
