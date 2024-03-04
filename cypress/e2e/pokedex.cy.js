@@ -13,8 +13,8 @@ describe('Pokedex', function() {
 })
 
 describe('Health Check', function() {
-  it('fails', function() {
+  it('succeeds', function() {
     cy.visit('http://localhost:5000/health')
-    cy.contains('error...')
+    cy.contains('ok')
   })
 })
