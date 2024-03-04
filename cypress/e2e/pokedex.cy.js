@@ -11,3 +11,10 @@ describe('Pokedex', function() {
     cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
   })
 })
+
+describe('Health Check', function() {
+  it('fails', function() {
+    cy.visit('http://localhost:5000/health')
+    cy.contains('error...')
+  })
+})
